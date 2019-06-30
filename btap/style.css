@@ -1,0 +1,13 @@
+*{
+	box-sizing: border-box;
+}
+.row img{
+	border: 5px;
+    border-style: solid;
+    border-color: pink;
+    transition: all 0.5s linear;
+}
+h3{
+	text-align: center;
+	
+}
