@@ -1,11 +1,10 @@
 *{
 	box-sizing: border-box;
 }
-.row img{
-	border: 5px;
-    border-style: solid;
-    border-color: pink;
-    transition: all 0.5s linear;
+.row img:hover{
+	transform: scale(1,1);
+	border: 5px solid;
+	box-shadow: 5px 10px #ddd;
 }
 h3{
 	text-align: center;
