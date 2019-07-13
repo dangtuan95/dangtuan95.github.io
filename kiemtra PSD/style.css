@@ -1,0 +1,170 @@
+
+@font-face {
+    font-family: 'poppins_extraboldregular';
+    src: url('fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppins_mediumregular';
+    src: url('fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppins_semiboldregular';
+    src: url('fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	max-width: 100%;
+}
+.navbar-default .container-fluid{
+	background-color:#b71e00;
+	border-color: #b71e00;
+
+}
+
+.banner{
+	position:relative;
+	max-width: 100%;
+	background-color: #b71e00;
+	
+
+}
+.banner1{
+	position: absolute;
+	max-width: 100%;
+	top: 0px;
+
+
+}
+.menu{
+	position: absolute;
+	max-width: 100%;
+	top: 0px;
+	width: 100%;
+	border: 0;
+
+
+}
+.container-1{
+	position: absolute;
+	top: 200px;
+	margin: 100px;
+	color: #FFFFFF;
+}
+.icon{
+	position: absolute;
+	right: 60px;
+	top: 230px;	
+}
+@media (max-width: 940px){
+	.icon{
+		display: none;
+	}
+}
+.container{
+	padding: 100px;
+}
+
+h1{
+	font-family: 'poppins_extraboldregular';
+	font-size: 60px;
+}
+h2{
+	font-family: 'poppins_semiboldregular';
+	font-size: 36px;
+	text-align: center;
+
+}
+h3{
+	font-family: 'poppins_semiboldregular';
+	font-size: 28px;
+	color: #FFFFFF;
+
+}
+p{
+	font-family: 'poppins_mediumregular';
+	font-size: 18px;
+	text-align: center;
+}
+.btn-warning{
+	background-color:#FFFE00;
+	color: black;
+	padding: 14px 32px;
+}
+.btn-primary{
+	background-color: #FFFFFF;
+	color: black;
+	padding: 14px 32px;
+}
+.container-fluid{
+	background-color: #F2F2F2;
+
+}
+.container-fluid-1{
+	background-color: red;
+	height: 263px;
+}
+
+.col-md-3{
+	position: relative;
+}
+.row{
+	max-width: 100%;
+}
+.row .col-md-3>h3{
+	position: absolute;
+	bottom: -40px;
+	margin: 57px;
+
+}
+.section{
+	position: relative;
+	max-width: 100%;
+	margin-top: 50px;
+
+}
+
+.section1{
+	position: absolute;
+	max-width: 100%;
+	top:100px;
+	color: #FFFFFF;
+
+}
+
+.col-md-7{
+	margin: 50px;
+	padding-top: 25px;
+}
+.btn-light{
+	background-color: #FFFE00;
+	padding: 20px 40px;
+	margin: 110px;
+}
+footer{
+
+}
