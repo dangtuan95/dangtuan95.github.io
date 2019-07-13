@@ -161,9 +161,17 @@ p{
 .col-md-7{
 	margin: 50px;
 	padding-top: 25px;
+	max-width: 100%;
+}
+.col-md-4{
+	max-width: 100%;
 }
 .btn-light{
 	background-color: #FFFE00;
 	padding: 20px 40px;
 	margin: 110px;
+}
+footer a h2,p{
+	color: black;
+	text-decoration: none;
 }
