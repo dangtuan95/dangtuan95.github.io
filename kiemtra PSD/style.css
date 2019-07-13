@@ -74,13 +74,14 @@ body{
 	top: 200px;
 	margin: 100px;
 	color: #FFFFFF;
+	max-width: 100%;
 }
 .icon{
 	position: absolute;
 	right: 60px;
-	top: 230px;	
+	top: 110px;	
 }
-@media (max-width: 940px){
+@media (max-width: 1100px){
 	.icon{
 		display: none;
 	}
@@ -122,6 +123,7 @@ p{
 }
 .container-fluid{
 	background-color: #F2F2F2;
+	max-width: 100%;
 
 }
 .container-fluid-1{
@@ -164,7 +166,4 @@ p{
 	background-color: #FFFE00;
 	padding: 20px 40px;
 	margin: 110px;
-}
-footer{
-
 }
