@@ -75,7 +75,19 @@ body{
 	margin: 100px;
 	color: #FFFFFF;
 	max-width: 100%;
+	clear: both;
 }
+@media(max-width: 920px){
+	.container-1{
+		display: none;
+	}
+}
+@media(max-width: 996px){
+	.col-md-offset-5{
+		display: none;
+	}
+}
+
 .icon{
 	position: absolute;
 	right: 60px;
@@ -124,6 +136,7 @@ p{
 .container-fluid{
 	background-color: #F2F2F2;
 	max-width: 100%;
+	clear: both;
 
 }
 .container-fluid-1{
@@ -157,6 +170,8 @@ p{
 	color: #FFFFFF;
 
 }
+
+	
 
 .col-md-7{
 	margin: 50px;
